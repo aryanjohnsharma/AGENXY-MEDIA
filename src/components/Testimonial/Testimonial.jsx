@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react'
 import './Testimonial.css'
 import jamesPfp from '../../assets/JAMES PFP.jpeg'
 import jamesAudio from '../../assets/James Testimonial.mp3'
-import jamesVideo from '../../assets/NEXT TO JAMES.mp4'
 
 function AnimatedMetric({ end, suffix = '', decimals = 0, duration = 1500 }) {
     const [value, setValue] = useState(0)
@@ -137,17 +136,6 @@ function Testimonial() {
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                        <div className="testimonial-video-card" aria-label="James client result video">
-                            <video
-                                src={jamesVideo}
-                                className="testimonial-video"
-                                autoPlay
-                                muted
-                                loop
-                                playsInline
-                                controls
-                            />
                         </div>
                     </div>
 
